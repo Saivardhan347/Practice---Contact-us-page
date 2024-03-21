@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-style: normal;
+  color: rgb(15, 15, 15);
+}
+
+body {
+  background-color: rgb(180, 15, 15);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.container {
+  width: 70vw;
+  height: 80vh;
+  margin: auto;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  overflow: auto;
+  border-radius: 20px;
+}
+
+.container h1{
+  text-align: center;
+  padding: 10px;
+  margin: 5px 20px;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.cc {
+  display: flex;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.contactus, .get-in-touch{
+  flex: 1;
+  width: 50%;
+  padding: 10px;
+}
+
+.contactus {
+  display: flex;
+  flex-direction: column; 
+  margin-right: 30px;
+}
+
+.contactus p {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.h-align{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.material-symbols-rounded {
+  display: block;
+  position: relative;
+  color: rgb(180, 15, 15);
+  border: 1px solid #1e1e1e;
+  border-radius: 25px;
+  padding: 5px;
+  background-color: #fff;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+}
+
+.text {
+  display: block;
+  margin-left: 15px;
+}
+
+.map iframe {
+  width: 100%;  
+  margin-top: 10px;
+
+}
+
+.np{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box1{
+  margin-right: 20px;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 0 0 10px 0px;
+  border: 1px solid gray;
+  
+
+}
+
+textarea{
+  resize: none;
+}
+
+#captcha {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.get-in-touch label{
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 15px;
+  font-style: normal;
+}
+
+#button{
+  position: relative;
+  width: 200px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgb(180, 15, 15);
+  color: #fff;
+}
