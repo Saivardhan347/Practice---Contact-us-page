@@ -17,6 +17,7 @@ The project consists of the following files:
 4. Preview the changes in your web browser by opening the index.html file.
 
 **Resources**
+
 If you're new to HTML and CSS, here are some resources to help you get started:
 
 MDN Web Docs: A comprehensive resource for learning web development.
