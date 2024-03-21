@@ -5,6 +5,7 @@ This is a simple practice project aimed at helping you learn HTML and CSS by cre
 To get started with this project, simply clone or download the repository to your local machine.
 
 **Structure**
+
 The project consists of the following files:
 
 1. index.html: This is the main HTML file that defines the structure of the contact us page.
